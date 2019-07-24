@@ -1,0 +1,53 @@
+{
+  "name": "WhatsARanjit-hash_to_xml",
+  "version": "0.0.1",
+  "author": "WhatsARanjit",
+  "summary": "Convert a Puppet hash into XML data",
+  "license": "Apache-2.0",
+  "source": "https://github.com/WhatsARanjit/puppet-hash_to_xml",
+  "project_page": "https://github.com/WhatsARanjit/puppet-hash_to_xml",
+  "issues_url": "https://github.com/WhatsARanjit/puppet-hash_to_xml/issues",
+  "tags": [
+    "xml"
+  ],
+  "dependencies": [],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "SLES",
+      "operatingsystemrelease": [
+        "11",
+        "12"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "10.04",
+        "12.04",
+        "14.04",
+        "16.06"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.7.1 < 6.0.0"
+    }
+  ],
+  "description": "Convert a Puppet hash into XML data"
+}
