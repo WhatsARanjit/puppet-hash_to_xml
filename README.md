@@ -4,8 +4,7 @@
 
 1. [Overview](#overview)
 1. [Functions](#functions)
-    * [node_groups()](#node_groups)
-    * [get_nodes()](#get_nodes)
+    * [hash_to_xml()](#hash_to_xml)
 
 ## Overview
 
