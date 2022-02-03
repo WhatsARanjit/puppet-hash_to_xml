@@ -15,7 +15,7 @@ Puppet::Functions.create_function(:hash_to_xml) do
     output += calc_indent(level)
     output +="<#{k}>" if open
     output += v if (open and close)
-    output += "</#{k}>" if close
+    output += "</#{k.split(/\s/, 2)[0]}>" if close
     output += "\n"
   end
 
